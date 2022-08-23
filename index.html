@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Video player overlay test</title>
+
+	<style>
+		html, body {
+			margin: 0;
+		}
+
+		#slot {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body>
+	<div id="video"></div>
+	<div id="slot"></div>
+
+	<script src="https://player.vimeo.com/api/player.js"></script>
+	<script src="video.js"></script>
+</body>
+</html>
